@@ -1,0 +1,21 @@
+[project]
+name = "logsense"
+version = "0.1.0"
+description = "AI-powered Linux log analyzer CLI"
+requires-python = ">=3.10"
+dependencies = [
+    "typer>=0.12",
+    "rich>=13.0",
+    "anthropic>=0.34",
+    "python-dotenv>=1.0",
+]
+
+[project.scripts]
+logsense = "logsense.cli:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["logsense"]

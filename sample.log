@@ -1,0 +1,200 @@
+2026-06-22 23:11:03 INFO  Health check passed
+2026-06-22 23:11:12 INFO  Starting worker process pid=4821
+2026-06-22 23:11:21 WARNING  Retry attempt 3/5 for upstream service payments-api
+2026-06-22 23:11:30 INFO  Starting worker process pid=4821
+2026-06-22 23:11:39 CRITICAL  Out of memory: kill process 4821 (worker) score 980
+2026-06-22 23:11:48 ERROR  Database connection refused: could not connect to server
+2026-06-22 23:11:57 WARNING  Slow query detected (812ms) on users table
+2026-06-22 23:12:06 ERROR  Traceback (most recent call last): psycopg2.OperationalError
+2026-06-22 23:12:15 INFO  Starting worker process pid=4821
+2026-06-22 23:12:24 ERROR  Database connection refused: could not connect to server
+2026-06-22 23:12:33 ERROR  Connection timed out while contacting auth-service:8443
+2026-06-22 23:12:42 ERROR  Traceback (most recent call last): psycopg2.OperationalError
+2026-06-22 23:12:51 ERROR  Traceback (most recent call last): psycopg2.OperationalError
+2026-06-22 23:13:00 ERROR  Failed to write to disk: No space left on device
+2026-06-22 23:13:09 CRITICAL  Out of memory: kill process 4821 (worker) score 980
+2026-06-22 23:13:18 CRITICAL  Out of memory: kill process 4821 (worker) score 980
+2026-06-22 23:13:27 WARNING  Slow query detected (812ms) on users table
+2026-06-22 23:13:36 ERROR  Database connection refused: could not connect to server
+2026-06-22 23:13:45 CRITICAL  Out of memory: kill process 4821 (worker) score 980
+2026-06-22 23:13:54 INFO  Health check passed
+2026-06-22 23:14:03 ERROR  Failed to write to disk: No space left on device
+2026-06-22 23:14:12 ERROR  Failed to write to disk: No space left on device
+2026-06-22 23:14:21 ERROR  Failed to write to disk: No space left on device
+2026-06-22 23:14:30 WARNING  Retry attempt 3/5 for upstream service payments-api
+2026-06-22 23:14:39 ERROR  Database connection refused: could not connect to server
+2026-06-22 23:14:48 ERROR  Failed to write to disk: No space left on device
+2026-06-22 23:14:57 INFO  Health check passed
+2026-06-22 23:15:06 ERROR  Traceback (most recent call last): psycopg2.OperationalError
+2026-06-22 23:15:15 ERROR  Database connection refused: could not connect to server
+2026-06-22 23:15:24 ERROR  Failed to write to disk: No space left on device
+2026-06-22 23:15:33 INFO  Starting worker process pid=4821
+2026-06-22 23:15:42 CRITICAL  Out of memory: kill process 4821 (worker) score 980
+2026-06-22 23:15:51 CRITICAL  Out of memory: kill process 4821 (worker) score 980
+2026-06-22 23:16:00 WARNING  Retry attempt 3/5 for upstream service payments-api
+2026-06-22 23:16:09 WARNING  Slow query detected (812ms) on users table
+2026-06-22 23:16:18 INFO  Starting worker process pid=4821
+2026-06-22 23:16:27 CRITICAL  Out of memory: kill process 4821 (worker) score 980
+2026-06-22 23:16:36 ERROR  Database connection refused: could not connect to server
+2026-06-22 23:16:45 INFO  Health check passed
+2026-06-22 23:16:54 CRITICAL  Out of memory: kill process 4821 (worker) score 980
+2026-06-22 23:17:03 ERROR  Traceback (most recent call last): psycopg2.OperationalError
+2026-06-22 23:17:12 ERROR  Database connection refused: could not connect to server
+2026-06-22 23:17:21 INFO  Health check passed
+2026-06-22 23:17:30 WARNING  Retry attempt 3/5 for upstream service payments-api
+2026-06-22 23:17:39 INFO  Starting worker process pid=4821
+2026-06-22 23:17:48 WARNING  Slow query detected (812ms) on users table
+2026-06-22 23:17:57 ERROR  Traceback (most recent call last): psycopg2.OperationalError
+2026-06-22 23:18:06 CRITICAL  Out of memory: kill process 4821 (worker) score 980
+2026-06-22 23:18:15 ERROR  Failed to write to disk: No space left on device
+2026-06-22 23:18:24 ERROR  Failed to write to disk: No space left on device
+2026-06-22 23:18:33 ERROR  Database connection refused: could not connect to server
+2026-06-22 23:18:42 INFO  Health check passed
+2026-06-22 23:18:51 ERROR  Failed to write to disk: No space left on device
+2026-06-22 23:19:00 WARNING  Retry attempt 3/5 for upstream service payments-api
+2026-06-22 23:19:09 ERROR  Connection timed out while contacting auth-service:8443
+2026-06-22 23:19:18 ERROR  Traceback (most recent call last): psycopg2.OperationalError
+2026-06-22 23:19:27 INFO  Health check passed
+2026-06-22 23:19:36 ERROR  Traceback (most recent call last): psycopg2.OperationalError
+2026-06-22 23:19:45 INFO  Health check passed
+2026-06-22 23:19:54 ERROR  Connection timed out while contacting auth-service:8443
+2026-06-22 23:20:03 ERROR  Database connection refused: could not connect to server
+2026-06-22 23:20:12 ERROR  Database connection refused: could not connect to server
+2026-06-22 23:20:21 ERROR  Traceback (most recent call last): psycopg2.OperationalError
+2026-06-22 23:20:30 ERROR  Failed to write to disk: No space left on device
+2026-06-22 23:20:39 WARNING  Slow query detected (812ms) on users table
+2026-06-22 23:20:48 ERROR  Connection timed out while contacting auth-service:8443
+2026-06-22 23:20:57 ERROR  Connection timed out while contacting auth-service:8443
+2026-06-22 23:21:06 ERROR  Connection timed out while contacting auth-service:8443
+2026-06-22 23:21:15 CRITICAL  Out of memory: kill process 4821 (worker) score 980
+2026-06-22 23:21:24 WARNING  Retry attempt 3/5 for upstream service payments-api
+2026-06-22 23:21:33 INFO  Starting worker process pid=4821
+2026-06-22 23:21:42 ERROR  Failed to write to disk: No space left on device
+2026-06-22 23:21:51 ERROR  Database connection refused: could not connect to server
+2026-06-22 23:22:00 INFO  Starting worker process pid=4821
+2026-06-22 23:22:09 INFO  Starting worker process pid=4821
+2026-06-22 23:22:18 INFO  Health check passed
+2026-06-22 23:22:27 ERROR  Traceback (most recent call last): psycopg2.OperationalError
+2026-06-22 23:22:36 CRITICAL  Out of memory: kill process 4821 (worker) score 980
+2026-06-22 23:22:45 WARNING  Slow query detected (812ms) on users table
+2026-06-22 23:22:54 CRITICAL  Out of memory: kill process 4821 (worker) score 980
+2026-06-22 23:23:03 WARNING  Retry attempt 3/5 for upstream service payments-api
+2026-06-22 23:23:12 INFO  Starting worker process pid=4821
+2026-06-22 23:23:21 WARNING  Slow query detected (812ms) on users table
+2026-06-22 23:23:30 ERROR  Failed to write to disk: No space left on device
+2026-06-22 23:23:39 ERROR  Traceback (most recent call last): psycopg2.OperationalError
+2026-06-22 23:23:48 CRITICAL  Out of memory: kill process 4821 (worker) score 980
+2026-06-22 23:23:57 ERROR  Connection timed out while contacting auth-service:8443
+2026-06-22 23:24:06 WARNING  Slow query detected (812ms) on users table
+2026-06-22 23:24:15 WARNING  Retry attempt 3/5 for upstream service payments-api
+2026-06-22 23:24:24 INFO  Health check passed
+2026-06-22 23:24:33 CRITICAL  Out of memory: kill process 4821 (worker) score 980
+2026-06-22 23:24:42 ERROR  Connection timed out while contacting auth-service:8443
+2026-06-22 23:24:51 ERROR  Failed to write to disk: No space left on device
+2026-06-22 23:25:00 WARNING  Retry attempt 3/5 for upstream service payments-api
+2026-06-22 23:25:09 ERROR  Failed to write to disk: No space left on device
+2026-06-22 23:25:18 ERROR  Traceback (most recent call last): psycopg2.OperationalError
+2026-06-22 23:25:27 ERROR  Database connection refused: could not connect to server
+2026-06-22 23:25:36 ERROR  Failed to write to disk: No space left on device
+2026-06-22 23:25:45 ERROR  Traceback (most recent call last): psycopg2.OperationalError
+2026-06-22 23:25:54 ERROR  Connection timed out while contacting auth-service:8443
+2026-06-22 23:26:03 ERROR  Connection timed out while contacting auth-service:8443
+2026-06-22 23:26:12 ERROR  Failed to write to disk: No space left on device
+2026-06-22 23:26:21 INFO  Starting worker process pid=4821
+2026-06-22 23:26:30 CRITICAL  Out of memory: kill process 4821 (worker) score 980
+2026-06-22 23:26:39 INFO  Starting worker process pid=4821
+2026-06-22 23:26:48 CRITICAL  Out of memory: kill process 4821 (worker) score 980
+2026-06-22 23:26:57 ERROR  Database connection refused: could not connect to server
+2026-06-22 23:27:06 CRITICAL  Out of memory: kill process 4821 (worker) score 980
+2026-06-22 23:27:15 ERROR  Connection timed out while contacting auth-service:8443
+2026-06-22 23:27:24 WARNING  Retry attempt 3/5 for upstream service payments-api
+2026-06-22 23:27:33 INFO  Starting worker process pid=4821
+2026-06-22 23:27:42 ERROR  Failed to write to disk: No space left on device
+2026-06-22 23:27:51 INFO  Health check passed
+2026-06-22 23:28:00 ERROR  Traceback (most recent call last): psycopg2.OperationalError
+2026-06-22 23:28:09 ERROR  Traceback (most recent call last): psycopg2.OperationalError
+2026-06-22 23:28:18 ERROR  Failed to write to disk: No space left on device
+2026-06-22 23:28:27 ERROR  Connection timed out while contacting auth-service:8443
+2026-06-22 23:28:36 ERROR  Connection timed out while contacting auth-service:8443
+2026-06-22 23:28:45 WARNING  Slow query detected (812ms) on users table
+2026-06-22 23:28:54 WARNING  Slow query detected (812ms) on users table
+2026-06-22 23:29:03 WARNING  Retry attempt 3/5 for upstream service payments-api
+2026-06-22 23:29:12 INFO  Health check passed
+2026-06-22 23:29:21 ERROR  Traceback (most recent call last): psycopg2.OperationalError
+2026-06-22 23:29:30 ERROR  Connection timed out while contacting auth-service:8443
+2026-06-22 23:29:39 WARNING  Slow query detected (812ms) on users table
+2026-06-22 23:29:48 WARNING  Slow query detected (812ms) on users table
+2026-06-22 23:29:57 ERROR  Failed to write to disk: No space left on device
+2026-06-22 23:30:06 ERROR  Traceback (most recent call last): psycopg2.OperationalError
+2026-06-22 23:30:15 WARNING  Slow query detected (812ms) on users table
+2026-06-22 23:30:24 WARNING  Retry attempt 3/5 for upstream service payments-api
+2026-06-22 23:30:33 WARNING  Slow query detected (812ms) on users table
+2026-06-22 23:30:42 ERROR  Failed to write to disk: No space left on device
+2026-06-22 23:30:51 ERROR  Connection timed out while contacting auth-service:8443
+2026-06-22 23:31:00 WARNING  Retry attempt 3/5 for upstream service payments-api
+2026-06-22 23:31:09 INFO  Health check passed
+2026-06-22 23:31:18 ERROR  Connection timed out while contacting auth-service:8443
+2026-06-22 23:31:27 ERROR  Failed to write to disk: No space left on device
+2026-06-22 23:31:36 ERROR  Traceback (most recent call last): psycopg2.OperationalError
+2026-06-22 23:31:45 ERROR  Traceback (most recent call last): psycopg2.OperationalError
+2026-06-22 23:31:54 WARNING  Slow query detected (812ms) on users table
+2026-06-22 23:32:03 WARNING  Retry attempt 3/5 for upstream service payments-api
+2026-06-22 23:32:12 ERROR  Failed to write to disk: No space left on device
+2026-06-22 23:32:21 WARNING  Slow query detected (812ms) on users table
+2026-06-22 23:32:30 ERROR  Failed to write to disk: No space left on device
+2026-06-22 23:32:39 ERROR  Connection timed out while contacting auth-service:8443
+2026-06-22 23:32:48 WARNING  Retry attempt 3/5 for upstream service payments-api
+2026-06-22 23:32:57 ERROR  Connection timed out while contacting auth-service:8443
+2026-06-22 23:33:06 CRITICAL  Out of memory: kill process 4821 (worker) score 980
+2026-06-22 23:33:15 WARNING  Slow query detected (812ms) on users table
+2026-06-22 23:33:24 ERROR  Connection timed out while contacting auth-service:8443
+2026-06-22 23:33:33 ERROR  Traceback (most recent call last): psycopg2.OperationalError
+2026-06-22 23:33:42 WARNING  Slow query detected (812ms) on users table
+2026-06-22 23:33:51 WARNING  Slow query detected (812ms) on users table
+2026-06-22 23:34:00 INFO  Starting worker process pid=4821
+2026-06-22 23:34:09 ERROR  Connection timed out while contacting auth-service:8443
+2026-06-22 23:34:18 WARNING  Retry attempt 3/5 for upstream service payments-api
+2026-06-22 23:34:27 CRITICAL  Out of memory: kill process 4821 (worker) score 980
+2026-06-22 23:34:36 ERROR  Traceback (most recent call last): psycopg2.OperationalError
+2026-06-22 23:34:45 INFO  Starting worker process pid=4821
+2026-06-22 23:34:54 WARNING  Slow query detected (812ms) on users table
+2026-06-22 23:35:03 INFO  Health check passed
+2026-06-22 23:35:12 INFO  Starting worker process pid=4821
+2026-06-22 23:35:21 INFO  Health check passed
+2026-06-22 23:35:30 ERROR  Database connection refused: could not connect to server
+2026-06-22 23:35:39 WARNING  Slow query detected (812ms) on users table
+2026-06-22 23:35:48 WARNING  Slow query detected (812ms) on users table
+2026-06-22 23:35:57 INFO  Starting worker process pid=4821
+2026-06-22 23:36:06 INFO  Starting worker process pid=4821
+2026-06-22 23:36:15 WARNING  Retry attempt 3/5 for upstream service payments-api
+2026-06-22 23:36:24 ERROR  Traceback (most recent call last): psycopg2.OperationalError
+2026-06-22 23:36:33 ERROR  Failed to write to disk: No space left on device
+2026-06-22 23:36:42 ERROR  Traceback (most recent call last): psycopg2.OperationalError
+2026-06-22 23:36:51 INFO  Starting worker process pid=4821
+2026-06-22 23:37:00 ERROR  Connection timed out while contacting auth-service:8443
+2026-06-22 23:37:09 ERROR  Failed to write to disk: No space left on device
+2026-06-22 23:37:18 WARNING  Slow query detected (812ms) on users table
+2026-06-22 23:37:27 ERROR  Database connection refused: could not connect to server
+2026-06-22 23:37:36 CRITICAL  Out of memory: kill process 4821 (worker) score 980
+2026-06-22 23:37:45 INFO  Health check passed
+2026-06-22 23:37:54 WARNING  Retry attempt 3/5 for upstream service payments-api
+2026-06-22 23:38:03 INFO  Health check passed
+2026-06-22 23:38:12 ERROR  Failed to write to disk: No space left on device
+2026-06-22 23:38:21 INFO  Health check passed
+2026-06-22 23:38:30 INFO  Health check passed
+2026-06-22 23:38:39 WARNING  Slow query detected (812ms) on users table
+2026-06-22 23:38:48 ERROR  Traceback (most recent call last): psycopg2.OperationalError
+2026-06-22 23:38:57 CRITICAL  Out of memory: kill process 4821 (worker) score 980
+2026-06-22 23:39:06 ERROR  Traceback (most recent call last): psycopg2.OperationalError
+2026-06-22 23:39:15 WARNING  Slow query detected (812ms) on users table
+2026-06-22 23:39:24 ERROR  Failed to write to disk: No space left on device
+2026-06-22 23:39:33 ERROR  Failed to write to disk: No space left on device
+2026-06-22 23:39:42 ERROR  Failed to write to disk: No space left on device
+2026-06-22 23:39:51 INFO  Health check passed
+2026-06-22 23:40:00 WARNING  Slow query detected (812ms) on users table
+2026-06-22 23:40:09 ERROR  Traceback (most recent call last): psycopg2.OperationalError
+2026-06-22 23:40:18 WARNING  Retry attempt 3/5 for upstream service payments-api
+2026-06-22 23:40:27 WARNING  Retry attempt 3/5 for upstream service payments-api
+2026-06-22 23:40:36 ERROR  Traceback (most recent call last): psycopg2.OperationalError
+2026-06-22 23:40:45 WARNING  Retry attempt 3/5 for upstream service payments-api
+2026-06-22 23:40:54 ERROR  Failed to write to disk: No space left on device
