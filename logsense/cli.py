@@ -1,3 +1,4 @@
+"""LogSense AI — an AI-powered Linux log analyzer CLI."""
 import time
 from pathlib import Path
 import typer
@@ -7,6 +8,7 @@ from rich.table import Table
 from .ai_analyzer import analyze_entries
 from .log_parser import classify_line, parse_lines
 from .storage import get_recent_events, init_db, save_event
+from .security import validate_log_path, sanitize_log_line, mask_sensitive_data
 
 app = typer.Typer(help="LogSense AI — scan or tail Linux logs and get AI root-cause analysis.")
 console = Console()
@@ -27,14 +29,20 @@ def analyze(
     no_ai: bool = typer.Option(False, "--no-ai", help="Skip AI, just show flagged lines"),
 ):
     """Analyze a static log file and surface the most important issues."""
-    if not file.exists():
-        console.print(f"[red]File not found: {file}[/red]")
+
+    # Security check
+    is_safe, error = validate_log_path(file)
+    if not is_safe:
+        console.print(f"[red]Security Error: {error}[/red]")
         raise typer.Exit(1)
+
     lines = file.read_text(errors="ignore").splitlines()
     entries = [e for e in parse_lines(lines) if e.severity >= min_severity]
+
     if not entries:
         console.print("[green]No issues found above the severity threshold.[/green]")
         return
+
     table = Table(title=f"Flagged lines in {file.name}")
     table.add_column("Line")
     table.add_column("Severity")
@@ -42,9 +50,12 @@ def analyze(
     for e in entries[:30]:
         table.add_row(str(e.line_number), e.label, e.raw[:120])
     console.print(table)
+
     if not no_ai:
         console.print("\n[bold cyan]Running AI analysis...[/bold cyan]")
-        analysis = analyze_entries([e.raw for e in entries])
+        # Sanitize and mask sensitive data before sending to AI
+        safe_entries = [mask_sensitive_data(sanitize_log_line(e.raw)) for e in entries]
+        analysis = analyze_entries(safe_entries)
         save_event(str(file), analysis, "\n".join(e.raw for e in entries))
         console.print(_render_analysis(analysis))
 
@@ -55,9 +66,13 @@ def watch(
     batch_size: int = typer.Option(10, help="Flagged lines before calling AI"),
 ):
     """Tail a log file live and run AI analysis as issues accumulate."""
-    if not file.exists():
-        console.print(f"[red]File not found: {file}[/red]")
+
+    # Security check
+    is_safe, error = validate_log_path(file)
+    if not is_safe:
+        console.print(f"[red]Security Error: {error}[/red]")
         raise typer.Exit(1)
+
     console.print(f"[cyan]Watching {file} — press Ctrl+C to stop[/cyan]")
     buffer = []
     with file.open("r", errors="ignore") as f:
@@ -71,10 +86,11 @@ def watch(
                 score, label = classify_line(line)
                 if score >= min_severity:
                     console.print(f"[yellow]{label}[/yellow]: {line.strip()[:120]}")
-                    buffer.append(line.strip())
+                    buffer.append(sanitize_log_line(line.strip()))
                 if len(buffer) >= batch_size:
                     console.print("[bold cyan]Analyzing batch with AI...[/bold cyan]")
-                    analysis = analyze_entries(buffer)
+                    safe_entries = [mask_sensitive_data(l) for l in buffer]
+                    analysis = analyze_entries(safe_entries)
                     save_event(str(file), analysis, "\n".join(buffer))
                     console.print(_render_analysis(analysis))
                     buffer = []

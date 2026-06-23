@@ -1,5 +1,39 @@
+# Secret files - NEVER push these
 .env
+*.env
+.env.*
+!.env.example
+
+# Virtual environment
 venv/
+.venv/
+env/
+
+# Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.Python
+
+# Database (contains your analysis history)
 *.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+sample.log
+
+# Build files
+*.egg-info/
+dist/
+build/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
