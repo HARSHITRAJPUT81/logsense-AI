@@ -1,3 +1,10 @@
+## ⚡ Install in One Command
+
+curl -fsSL https://raw.githubusercontent.com/HARSHITRAJPUT81/logsense/main/install.sh | bash
+
+That's it! The installer handles everything automatically.
+
+---
 # 🔍 LogSense AI
 
 > An AI-powered Linux log analyzer CLI that automatically detects errors, crashes, and anomalies in log files and provides intelligent root-cause analysis with suggested fixes.
