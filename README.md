@@ -75,3 +75,7 @@ MIT — see [LICENSE](LICENSE)
 **Harshit** — built as a portfolio project combining Linux + AI.
 
 > ⭐ Star this repo if you found it useful!
+## 👨‍💻 Author
+
+**Harshit Rajput**
+

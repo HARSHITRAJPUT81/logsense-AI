@@ -119,3 +119,9 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+@app.callback(invoke_without_command=True)
+def version(ctx: typer.Context):
+    if ctx.invoked_subcommand is None:
+        console.print("[bold cyan]LogSense AI v0.1.0[/bold cyan]")
+        console.print("By Harshit Rajput — github.com/HARSHITRAJPUT81/logsense")
