@@ -1,9 +1,12 @@
+LICENSE
+README.md
 pyproject.toml
 logsense/__init__.py
 logsense/ai_analyzer.py
 logsense/cli.py
 logsense/config.py
 logsense/log_parser.py
+logsense/security.py
 logsense/storage.py
 logsense.egg-info/PKG-INFO
 logsense.egg-info/SOURCES.txt
