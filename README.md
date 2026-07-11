@@ -84,8 +84,6 @@ Using `echo` on Windows creates a UTF-16 file which breaks Python.
 
 ## 🏗️ Project Structure
 
-## 🏗️ Project Structure
-
 ```
 logsense/
 ├── logsense/
