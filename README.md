@@ -84,6 +84,9 @@ Using `echo` on Windows creates a UTF-16 file which breaks Python.
 
 ## 🏗️ Project Structure
 
+## 🏗️ Project Structure
+
+```
 logsense/
 ├── logsense/
 │   ├── cli.py           # Commands: analyze / watch / report
@@ -97,7 +100,7 @@ logsense/
 ├── install.bat          # Windows batch installer
 ├── requirements.txt
 └── .env.example
-
+```
 
 ---
 
@@ -116,6 +119,7 @@ logsense/
 
 ## 📊 Example Output
 
+```
 Flagged lines in syslog
 ┏━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 ┃ Line ┃ Severity ┃ Text                        ┃
@@ -128,7 +132,7 @@ AI Analysis
 Severity   : critical
 Root cause : OOM kills and DB connection loss
 Fix        : Increase memory, check DB pool
-
+```
 
 ---
 
