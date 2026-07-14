@@ -18,6 +18,7 @@
 curl -fsSL https://raw.githubusercontent.com/HARSHITRAJPUT81/logsense-AI/main/install.sh | bash
 ```
 
+
 **Windows (PowerShell as Administrator):**
 ```powershell
 irm https://raw.githubusercontent.com/HARSHITRAJPUT81/logsense-AI/main/install.ps1 | iex
@@ -27,11 +28,14 @@ irm https://raw.githubusercontent.com/HARSHITRAJPUT81/logsense-AI/main/install.p
 
 ---
 
+
+
 ## 💡 Why LogSense AI?
 
 When something breaks on a Linux, Windows or macOS system, you normally have to manually search through thousands of log lines to find the problem. LogSense AI does this for you automatically — it finds the important lines, sends them to AI, and tells you exactly what went wrong and how to fix it.
 
 ---
+
 
 ## 🛠️ Commands
 
